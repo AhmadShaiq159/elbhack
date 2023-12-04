@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+
+/* default settings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: rgb(0, 255, 0);
+    --secondary-color: #000000;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    color: var(--primary-color);
+    font-family: 'Courier Prime', monospace;
+}
+
+/* welcome section  */
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    border: 2px solid var(--primary-color);
+    margin: 30px auto;
+    padding: 80px 0px;
+}
+
+#welcome h1 {
+    font-size: 40px;
+}
+
+/* forms  */
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 10px 40px;
+    margin: 6px 0px;
+    color: var(--primary-color);
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
+
+.input::placeholder {
+    color: rgb(0 255 0 / 30%);
+}
+
+.form button {
+    background: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Courier Prime', monospace
+}
+
+.form button:hover {
+    background-color: rgb(0 255 0 / 10%);
+}
+
+/* alerts */
+.alert-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.alert-toggle button a {
+    color: var(--primary-color);
+}
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20%;
+}
+
+.btn {
+    font-family: 'Courier Prime', monospace;
+    margin-left: 14.5%;
+    margin-top: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.btn a {
+    color: var(--primary-color);
+}
+
+/* hackerman section */
+#hacker-man {
+    padding: 20px 200px;
+}
