@@ -1,2 +1,2 @@
 # elbhack
-This website is created and developed by Shaiq by using HTML and CSS. Inspired by CWH.
+This website was created and developed by Shaiq using HTML and CSS.
