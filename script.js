@@ -32,7 +32,7 @@ const promiseFunction = async () => {
     let ini = async () => {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                resolve("Initializing 3.$Hack Program...");
+                resolve("Initializing ElbHack Program...");
             }, 1000)
         });
     };
