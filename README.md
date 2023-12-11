@@ -1,5 +1,5 @@
 # elbhack
-This website was created and developed by Shaiq using HTML and CSS.
+This website was created and developed by Shaiq using HTML, CSS, and JAVASCRIPT.
 This website supports only Facebook, Instagram, TikTok, Snapchat, and Twitter...
 
 
